@@ -44,7 +44,7 @@ function createRandomStructure(depth) {
 db.data_example3.insertMany(
     Array.from({ length: 150000 }, () => ({
       "MetadataLocal": {
-        "CollectDate": new Date("2024-04-05T01:00:00.000+00:00"),
+        "CollectDate": new Date("2024-04-07T01:00:00.000+00:00"),
         "ProductName": "VM",
         "ProductCode": "VM",
         "ProviderName": "AWS",

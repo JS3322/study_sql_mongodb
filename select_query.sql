@@ -29,3 +29,8 @@ db.collection.find({
     }
   }
 });
+
+// 배열 존재 유무 확인
+db.collection.find({
+	"data.policies.0": {$exists: true}
+})
